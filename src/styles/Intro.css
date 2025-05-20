@@ -19,10 +19,11 @@
 
 .intro-subtitle {
     color: var(--heading-color);
+    margin-top: -0.5rem;
     font-size: 1.2rem;
     padding: 0rem 1.5rem;
     line-height: 1.5rem;
-    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .intro-desc {
@@ -47,15 +48,19 @@
     .intro {
         margin: auto;
         min-height: 100vh;
-        padding-top: 80px;
+        padding-top:4rem;
     }
     .Typewriter {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .intro-subtitle {
-        font-size: 2rem;
-        line-height: 1rem;
-        padding-bottom: 1rem;
+        font-size: 1.8rem;
+        margin-top: -1.3rem;
+        line-height: 1.8rem;
+    }
+    .intro-desc {
+        font-size: 1.2rem;
+        max-width: 700px;
     }
 }
