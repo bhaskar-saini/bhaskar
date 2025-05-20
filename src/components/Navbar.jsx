@@ -1,16 +1,15 @@
-import {Link} from "react-router-dom";
 import {EmailRounded, LinkedIn, GitHub, IntegrationInstructionsRounded} from '@mui/icons-material';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
   return (
     <nav>
-      <div className='name'><Link to="/">Bhaskar Saini</Link></div>
+      <div className='name'><a href="#">Bhaskar Saini</a></div>
       <ul className="navlinks">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/experience">Experience</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
       <ul className="socials">
         <li><a href="mailto:bhaskarsaini333@gmail.com"><EmailRounded style={{ fontSize: 20 }}></EmailRounded></a></li>
