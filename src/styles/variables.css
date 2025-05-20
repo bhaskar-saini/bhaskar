@@ -1,0 +1,19 @@
+:root {
+    
+    /* Colors */
+
+    --highlighter: #FFA500;
+    --bg-color: #1E1E2F;
+    --heading-color: #00FFFF;
+    --text-color : #CCCCCC;
+    --white : #FFFFFF;
+    --black : #000000;
+
+    /* Fonts */
+    --ff : 'NTR', sans-serif;
+    --font-exsm: 1rem;      /* 16px */
+    --font-sm: 1.25rem;     /* 20px */
+    --font-md: 1.5rem;      /* 24px */
+    --font-lg: 3rem;        /* 48px */
+    --font-xl: 4rem;        /* 64px */
+}

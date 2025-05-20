@@ -1,0 +1,61 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.Typewriter {
+    color: var(--heading-color);
+    font-size: 2rem;
+}
+
+.intro-name {
+    color: var(--highlighter);
+    font-weight: bold;
+}
+
+.intro-subtitle {
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    padding: 0rem 1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.intro-desc {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 0rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro-btn {
+    text-decoration: none;
+    color: var(--highlighter);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid var(--highlighter);
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width : 650px) {
+    .intro {
+        margin: auto;
+        min-height: 100vh;
+        padding-top: 80px;
+    }
+    .Typewriter {
+        font-size: 4rem;
+    }
+
+    .intro-subtitle {
+        font-size: 2rem;
+        line-height: 1rem;
+        padding-bottom: 1rem;
+    }
+}
