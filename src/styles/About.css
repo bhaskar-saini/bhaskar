@@ -1,0 +1,44 @@
+.about {
+    padding-top: 5rem;
+}
+
+.about-header {
+    color: var(--heading-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.about-desc {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+.about p {
+    margin-bottom: 1.5rem;
+}
+
+.techStack {
+    list-style-position: inside;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px,150px));
+    margin-bottom: 1.5rem;
+}
+
+.techStack li::marker {
+    content: "▹ ";
+    color: var(--highlighter);
+    font-weight: bold;
+}
+.about-image {
+    display: none;
+}
+
+@media only screen and (min-width : 650px) {
+    .about {
+        padding-top: unset;
+        scroll-margin-top: 60px;
+        max-width: 1000px;
+        margin: auto;
+        min-height: 50vh;
+    }
+}

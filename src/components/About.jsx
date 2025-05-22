@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import '../styles/About.css';
 
 const About = () => {
   const techStack = [
@@ -39,7 +40,7 @@ const About = () => {
             </p>
             <p>Here are some technologies I have been working with:</p>
 
-            <ul className="teckStack">
+            <ul className="techStack">
               {techStack.map((tech, index)=>(
                 <div key={index} data-aos = "fade-up" data-aos-delay = {`${(index+1)*100}`}>
                   <li>{tech}</li>
@@ -50,7 +51,9 @@ const About = () => {
             <p>
               Outside of work, I'm interested in following the developments of science. I also play a lot of video games. And make TikToks.
             </p>
-
+          </div>
+          <div className="about-image">
+            <img src='/profile.png' alt="Bhaskar Saini" />
           </div>
         </div>
       </div>
