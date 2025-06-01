@@ -20,7 +20,7 @@
 .techStack {
     list-style-position: inside;
     display: grid;
-    grid-template-columns: repeat(2, minmax(10px,150px));
+    grid-template-columns: repeat(2, minmax(10px,200px));
     margin-bottom: 1.5rem;
 }
 
@@ -40,5 +40,32 @@
         max-width: 1000px;
         margin: auto;
         min-height: 50vh;
+    }
+
+    .about-header {
+        font-size: 2rem;
+    }
+
+    .about-desc {
+        font-size: 1.2rem;
+    }
+
+    .about-content {
+        display: flex;
+    }
+
+    .about-image {
+        display: block;
+        padding-left: 2rem;
+    }
+
+    .about-image img {
+        max-width: 300px;
+        border-radius: 10px;
+        box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+        transition: .2s ease-in-out;
+    }
+    .about-image img:hover {
+        transform: scale(1.1);
     }
 }

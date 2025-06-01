@@ -1,0 +1,6 @@
+.exp-header {
+    color: var(--heading-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

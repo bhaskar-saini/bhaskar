@@ -17,3 +17,9 @@ body{
   color: var(--text-color);
   padding: 0px 30px;
 }
+
+body a{
+  color: var(--highlighter);
+  font-weight: bold;
+  text-decoration: none;
+}
