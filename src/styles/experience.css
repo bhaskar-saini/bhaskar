@@ -1,6 +1,52 @@
+.exp {
+    padding-top: 4rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
 .exp-header {
     color: var(--heading-color);
     font-size: 1.6rem;
     font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.duration{
+    font-size: 0.8rem;
     margin-bottom: 1rem;
+}
+
+.exp ul {
+    list-style-position: inside;
+}
+
+.exp ul li::marker {
+    content: "▹ ";
+    color: var(--highlighter);
+    font-weight: bold;
+}
+.exp ul li {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width : 650px) {
+    .exp {
+        max-width: 1000px;
+        margin: auto;
+        min-height: 100vh;
+        font-size: 1.2rem;
+    }
+
+    .exp-header {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .duration{
+        font-size: 1rem;
+    }
 }

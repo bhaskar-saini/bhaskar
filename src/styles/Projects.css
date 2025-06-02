@@ -1,0 +1,11 @@
+.projects {
+    padding-top: 4rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.projects-header {
+    color: var(--heading-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
