@@ -8,6 +8,8 @@
     --text-color : #CCCCCC;
     --white : #FFFFFF;
     --black : #000000;
+    --light-bg-color: #2a2a3f;
+    --lightest-bg-color: #3a3a5a;
 
     /* Fonts */
     --ff : 'NTR', sans-serif;
